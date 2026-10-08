@@ -13,6 +13,7 @@ type Sample struct {
 	VirtualUserID uuid.UUID
 	Duration      time.Duration
 	Success       bool
+	StatusCode    int
 	Error         error
 }
 
